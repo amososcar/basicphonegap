@@ -1,103 +1,69 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
-       <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-           <link rel="stylesheet" href="css/jquery.mobile.theme.css"/>
-           <link rel="stylesheet" href="css/index.css"/>
-        <title>FooBar Web Design</title>
-    </head>
-    <body>
-        <div class="app">
-<!-- Home -->   
-            <div data-role="page" id="home">
-                <header data-role="header">
-                    <h1>FooBar Web Design</h1>
-                </header>
-                
-                <div data-role="content">
-<!-- Nav Bar -->                  
-                    <nav data-role="navbar">
-                        <ul>
-                            <li><a href="#home" class="ui-btn-active"> Home</a></li>
-                            <li><a href="#about"> About </a></li>
-                            <li><a href="#contact"> Contact Us </a></li>
-                        </ul>
-                    </nav>
-                    <h3> Welcome to our homepage</h3>
-                    <img class="banner" src="img/bannerimage.png">
-                    <p>    
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
-                    <a href="#contact" class="ui-shadow ui-btn ui-corner-all"> Contact us today!</a>
-                </div>
-                <footer data-role="footer">
-                    <h3>Copyright &copy; 2015</h3>
-                </footer>
-            </div>
-<!-- About Us -->             
-            <div data-role="page" id="about">
-                <header data-role="header">
-                    <h1>About FooBar</h1>
-                </header>
-                
-                <div data-role="content">
-                    <nav data-role="navbar">
-                        <ul>
-                            <li><a href="#home"> Home</a></li>
-                            <li><a href="#about"class="ui-btn-active"> About </a></li>
-                            <li><a href="#contact"> Contact Us </a></li>
-                        </ul>
-                    </nav>
-                    <h3>About Us</h3>
-                   <p>
-                       It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
-                </div>
-                <footer data-role="footer">
-                    <h3>Copyright &copy; 2015</h3>
-                </footer>
-            </div>
-<!-- Contact Us -->   
-             <div data-role="page" id="contact">
-                <header data-role="header">
-                    <h1>Contact FooBar</h1>
-                </header>
-                
-                <div data-role="content">
-                    <nav data-role="navbar">
-                        <ul>
-                            <li><a href="#home"> Home</a></li>
-                            <li><a href="#about"> About </a></li>
-                            <li><a href="#contact" class="ui-btn-active"> Contact Us </a></li>
-                        </ul>
-                    </nav>
-                    <h3>Contact Us</h3>
-                    <p>
-                    Find us here!</p>
-                    <iframe class="banner" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d600.2685682705585!2d-77.39084430689637!3d38.450281472545484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6ef92b204ddf7%3A0x4de7df32526cce84!2s110+Pilgrim+Cove%2C+Stafford%2C+VA+22554!5e0!3m2!1sen!2sus!4v1453133978244"frameborder="0" style="border:0" allowfullscreen></iframe>
-                    <h3> Location </h3>
-                    <ul>
-                    <li> <strong> FooBar</strong></li>
-                    <li> 100 Pilgrim Cove</li>
-                    <li> Stafford VA, 22554</li>
-                    <li> <strong>Email:</strong>amos.oscar@gmail.com</li>
-                    <li> <strong>Phone:</strong>202.280.5601</li>
-                    </ul>
-                </div>
-                <footer data-role="footer">
-                    <h3>Copyright &copy; 2015</h3>
-                </footer>
-            </div> 
-            
-        </div>
-        <script type="text/javascript" src="cordova.js"></script>
-       <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-    </body>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Circular Navigation - Demo 1 | Codrops</title>
+		<meta name="description" content="Circular Navigation Styles - Building a Circular Navigation with CSS Transforms | Codrops " />
+		<meta name="keywords" content="css transforms, circular navigation, round navigation, circular menu, tutorial" />
+		<meta name="author" content="Sara Soueidan for Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component1.css" />
+		<script src="js/modernizr-2.6.2.min.js"></script>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7243260-2']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/CreativeLinkEffects/"><span>Previous Demo</span></a>
+				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=16114"><span>Back to the Codrops Article</span></a></span>
+			</div>
+			<header>
+				<h1> <img src="favorbankcoin.png" /> <br>FavorBank <span>Need a Favor? Lend a Favor? </span></h1>	
+				<nav class="codrops-demos">
+					<a class="current-demo" href="index.html">Demo 1</a>
+					<a href="index2.html">Demo 2</a>
+					<a href="interactivedemo/index.html">Intractive demo</a>
+				</nav>
+			</header>
+            <h1>  </h1>
+			<section>
+				<p> </p>
+			</section>
+			<div class="component">
+				<!-- Start Nav Structure -->
+				<button class="cn-button" id="cn-button">+</button>
+				<div class="cn-wrapper" id="cn-wrapper">
+				    <ul>
+				      <li><a href="#"><span class="icon-film"></span></a></li>
+				      <li><a href="#"><span class="icon-edit"></span></a></li>
+				      <li><a href="#"><span class="icon-home"></span></a></li>
+				      <li><a href="#"><span class="icon-user"></span></a></li>
+				      <li><a href="#"><span class="icon-comments"></span></a></li>
+				     </ul>
+				</div>
+				<div id="cn-overlay" class="cn-overlay"></div>
+				<!-- End Nav Structure -->
+			</div>
+		</div><!-- /container -->
+		<script src="js/polyfills.js"></script>
+		<script src="js/demo1.js"></script>
+		<!-- For the demo ad only -->   
+<script src="http://tympanus.net/codrops/adpacks/demoad.js"></script>
+	</body>
 </html>
